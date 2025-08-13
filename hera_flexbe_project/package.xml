@@ -12,10 +12,15 @@
   <url type="website">TODO</url>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>ament_python</buildtool_depend>
 
   <run_depend>flexbe_core</run_depend>
   <run_depend>hera_flexbe_behaviors</run_depend>
   <run_depend>hera_flexbe_states</run_depend>
+
+  <run_depend>rclpy</run_depend>
+  <run_depend>flexbe_msgs</run_depend>
+  <run_depend>hera_msgs</run_depend>
 
   <export>
     <build_type>ament_cmake</build_type>
